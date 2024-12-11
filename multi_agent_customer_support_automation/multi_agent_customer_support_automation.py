@@ -121,5 +121,4 @@ inputs = {
 }
 result = crew.kickoff(inputs=inputs)
 
-from IPython.display import Markdown
-Markdown(result)
+print(result)
